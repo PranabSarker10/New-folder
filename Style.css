@@ -17,77 +17,9 @@ main {
   background-color: #ffffff;
 }
 
-/* button style */
-.button-info {
-  background-color: #e02c6d;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  text-decoration: none;
-  cursor: pointer;
-  font-weight: 400;
-  font-size: 16px;
-  width: 168px;
-  height: 44px;
-  border: 0px;
-  color: #ffffff;
-}
 
-/* font awesome style */
-.fa-arrow-right {
-  margin-left: 8px;
-}
-.fa-sign-in-alt {
-  margin-right: 8px;
-}
-
-/* navigation style */
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: auto;
-  width: 1160px;
-  padding: 42px;
-}
-.nav-option {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-  color: #ffffff;
-  margin-right: 36px;
-}
-
-/* top banner style */
-.top-banner {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  width: 1160px;
-  margin-top: 67px;
-}
-.top-banner-left h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 61px;
-  color: #ffffff;
-  margin-right: 156px;
-}
-.top-banner-right img {
-  width: 556.01px;
-  height: 438px;
-  margin-bottom: 86px;
-}
-.top-banner:hover .top-banner-right img {
-  transition: transform 0.5s ease-out;
-  transform: scale(0.5);
-}
 
 /* players style */
-h2{
-    text-align: center;
-}
 .players {
   margin-top: 70px;
   margin-bottom: 165px;
@@ -126,50 +58,6 @@ h2{
   text-align: justify;
 }
 
-/* highlights styles */
-.highlights-banner {
-  margin-top: -36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 80px;
-}
-.left-highlights-banner {
-  margin-left: 10px;
-  margin-right: 66px;
-}
-.highlights-title {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  color: #0a0826;
-  margin-bottom: 0;
-}
-.highlights-news-text {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  color: #6c6c6c;
-  margin-top: 8px;
-  margin-bottom: 24px;
-}
-.right-highlights-banner img {
-  width: 567px;
-  height: 427px;
-}
-/* Table Styles */
-table{
-    font-family: "Poppins", sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-td,th{
-    border: 1px solid #e02c6d;
-    text-align: left;
-    padding: 8px;
-}
-tr:nth-child(even){
-    background-color: #dddddd;
-}
 /* footer style */
 footer {
   width: 100%;
@@ -184,26 +72,6 @@ footer image {
   width: width: 483.87px;;
   height: 110px;
 }
-.social-media {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.social-icon {
-  margin-right: 14px;
-  height: 32px;
-  width: 32px;
-}
-.copyright-text {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  margin-top: 20px;
-  margin-bottom: 63px;
-}
-
 
 /* responsive media query */
 @media only screen and (max-width: 780px){
@@ -217,59 +85,6 @@ footer image {
    }
    main{
        width: 90%;
-   }
-
-   /* navigation style */
-   nav{
-       width: 80%;
-       flex-direction: column;
-       justify-content: flex-start;
-       align-items: center;
-       margin: auto;
-   }
-   .nav-option{
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-   }
-
-   /* Button Style */
-   .button-sub{
-       background-color: #E02C6D;
-       font-family: 'Poppins', sans-serif;
-       font-style: normal;
-       font-weight: 400;
-       font-size: 12px;
-       text-decoration: none;
-       cursor: pointer;
-       width: 90px;
-       height: 33px;
-       border: 0px;
-       margin-bottom: 29px;
-       color: #ffffff;
-   }
-
-   /* Banner Style */
-   .top-banner{
-       flex-direction: column;
-       width: 90%;
-       margin-top: 0;
-       align-items: center;
-   }
-   .top-banner-left{
-       margin-left: 20px;
-   }
-   .top-banner-left h1{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    margin-top: 0;
-    font-size: 36px;
-    color: white;
-   }
-   .top-banner-right img{
-       width: 300px;
-       height: 256px;
-       margin-top: 50px;
-       margin-bottom: 69px;
    }
 
    /* players style  */
@@ -307,51 +122,6 @@ footer image {
         font-size: 16px;
         text-align: justify;
    }
-
-   /* highlights style */
-   .highlights-banner {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-bottom: 40px;
-   }
-
-   .left-highlights-banner{
-        margin: 0;
-   }
-
-   .highlights-title {   
-        font-weight: bold;
-        font-size: 30px;
-   }
-
-   .highlights-news-text{
-       font-weight: normal;
-       font-size: 16px;
-       text-align: justify;
-   }
-
-   .right-highlights-banner img {
-       width: 328px;
-       height: 248px;
-   }
-
-   /* table style */
-   table{
-        font-family: "Poppins", sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-   }
-   td,th{
-        border: 1px solid #e02c6d;
-        text-align: left;
-        padding: 8px;
-   }
-   tr:nth-child(even){
-       background-color: #dddddd;
-   }
-
    /* footer style */
    footer img{
       width: 100%;
